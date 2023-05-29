@@ -1,0 +1,27 @@
+-
+  name: 1.登录接口-正确账号/正确密码-登录成功
+  request:
+    method: post
+    url: http://ceshi13.dishait.cn/admin/login
+    userinfo:
+      "username": admin
+      "password": admin
+  validate: 设置断言
+-
+  name: 2.登录接口-正确账号/错误密码-登录失败
+  request:
+    method: post
+    url: http://ceshi13.dishait.cn/admin/login
+    userinfo:
+      "username": admin
+      "password": admin1
+  validate: 设置断言
+-
+  name: 3.登录接口-错误账号/正确密码-登录失败
+  request:
+    method: post
+    url: http://ceshi13.dishait.cn/admin/login
+    userinfo:
+      "username": admin1
+      "password": admin
+  validate: 设置断言

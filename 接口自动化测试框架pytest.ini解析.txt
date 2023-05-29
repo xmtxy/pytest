@@ -1,0 +1,19 @@
+变量名是固定写法,不可更改
+
+addopts = -vs  命令行参数
+改变默认的测试用例路径  testpaths=./test_case
+改变测试用例的模块名规则 python_files=test_*.py  只执行test_*的文件
+改变测试类的默认规则 python_classes=Test*  只执行Test*的类
+改变测试用例名称规则 python_functions=test_*  只执行test_*的测试用例(方法)
+设置基础路径 base_url = http://xxxx
+标记 执行 -m "smoke or product_manage"  处于什么的测试用例
+markers=
+  smoke:冒烟测试
+  login:登录用例
+  .....
+执行多个标记:  -vs --html=./reports.html -m "smoke or login"
+
+使用:
+    @pytest.mark.smoke  #方法上面定义标记   嘛可
+    def test_xxx(self):
+        ......

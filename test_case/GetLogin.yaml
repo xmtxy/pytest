@@ -1,0 +1,17 @@
+-
+  name: $ddt{name}
+  moduleName: $ddt{module}
+  step: $ddt{step}
+  parameterize:
+    name-username-password-module-assert_str-status_code-step: /datas/Pm_Login_List.yaml
+  request:
+    method: post
+    url: /admin/login
+    data:
+      "username": $ddt{username}
+      "password": $ddt{password}
+  extract:
+    token: '"token":"(.*?)"'
+  validate:
+    - equals: { status_code: '$ddt{status_code}' }
+    - contains: $ddt{assert_str}

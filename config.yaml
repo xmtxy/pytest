@@ -1,0 +1,4 @@
+# 全局的公共部分
+base:
+  base_test_url: http://ceshi13.dishait.cn
+  base_normal_url: https://***

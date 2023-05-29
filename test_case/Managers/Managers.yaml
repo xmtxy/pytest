@@ -1,0 +1,17 @@
+-
+  name: $ddt{name}
+  moduleName: $ddt{module}
+  step: $ddt{step}
+  parameterize:
+    name-page-limit-keyword-module-assert_str-status_code-step: /datas/Pm_Managers_List.yaml
+  request:
+    method: get
+    url: /admin/manager/$ddt{page}
+    data:
+      "limit": $ddt{limit}
+      "keyword": $ddt{keyword}
+    headers:
+      token: ${token}
+  validate:
+    - equals: { status_code: '$ddt{status_code}' }
+    - contains: $ddt{assert_str}

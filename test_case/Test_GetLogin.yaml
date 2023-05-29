@@ -1,0 +1,13 @@
+-
+  one: $step{one}
+  two: $step{two}
+  three: $step{three}
+  four: $step{four}
+  five: $step{five}
+  six: $step{six}
+  seven: $step{seven}
+  eight: $step{eight}
+  nine: $step{nine}
+  ten: $step{ten}
+  datas:
+    one-two-three-four-five-six-seven-eight-nine-ten: /datas/Test_Step_Login.yaml
