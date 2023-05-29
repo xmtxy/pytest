@@ -54,7 +54,7 @@ class TestApi:
         # userinfo = caseinfo['request']['userinfo']
         # res = requests.post(url=url,data=userinfo)
         # res = SendRequest().send_request(method=caseinfo['request']['method'], url=url, data=userinfo, testName=caseinfo['name'], moduleName=caseinfo['moduleName'])
-        res = SendRequest().standard_yaml(caseinfo) # 优化为一句
+        SendRequest().standard_yaml(caseinfo) # 优化为一句
         # print(res.json())
         # TestApi.accessToken=res.json()['data']['token']
         # 需要作判断
