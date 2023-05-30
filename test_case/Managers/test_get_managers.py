@@ -36,5 +36,5 @@ class Test_Manage_Api:
         # for item in key_list:
         #     with allure.step(f'{item}'):
         #         pass
-        SendRequest().standard_yaml(manages)
+        res = SendRequest().standard_yaml(manages)
         # print("\n", res.json())
