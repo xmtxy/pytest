@@ -54,3 +54,619 @@
 2023-05-30 11:01:03,834 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
 2023-05-30 11:01:03,834 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
 
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:15:41,684 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:15:42,680 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 11:15:42,680 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"a83a474a7c7ddb5031873d1c44bf7025d9b30d15"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 11:15:42,680 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 11:15:42,680 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 11:15:42,687 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:15:42,687 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 11:15:42,688 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 11:15:42,688 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 11:15:42,688 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 11:15:42,688 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 11:15:42,688 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:15:42,688 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:15:42,688 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:15:43,500 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 11:15:43,500 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 11:15:43,500 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 11:15:43,500 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 11:15:43,508 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:15:43,508 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 11:15:43,509 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 11:15:43,509 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 11:15:43,509 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 11:15:43,509 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 11:15:43,509 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:15:43,509 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:15:43,509 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:15:43,711 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 11:15:43,711 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 11:15:43,711 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 11:15:43,711 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 11:15:43,719 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:15:43,719 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 11:15:43,719 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 11:15:43,719 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 11:15:43,720 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 11:15:43,720 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': 'a83a474a7c7ddb5031873d1c44bf7025d9b30d15'}
+2023-05-30 11:15:43,720 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:15:43,720 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:15:43,720 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:15:43,918 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 11:15:43,919 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 10:45:19","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":46,"status":1,"create_time":"2021-04-01 08:51:13","update_time":"2022-07-20 09:22:52","username":"zhangsan","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}}],"totalCount":23,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 11:15:43,919 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 11:15:43,920 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 11:53:00,034 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:53:00,035 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 11:53:00,035 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 11:53:00,035 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 11:53:00,035 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 11:53:00,036 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 11:53:00,036 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:53:00,036 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:53:00,036 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:53:00,723 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 11:53:00,723 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"58a6dd027175430301c109c3fa72e677ad6c77d1"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 11:53:00,723 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 11:53:00,723 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 11:53:00,731 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:53:00,731 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 11:53:00,731 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 11:53:00,732 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 11:53:00,732 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 11:53:00,732 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 11:53:00,732 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:53:00,732 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:53:00,732 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:53:01,337 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 11:53:01,337 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 11:53:01,337 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 11:53:01,337 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 11:53:01,344 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:53:01,344 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 11:53:01,344 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 11:53:01,344 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 11:53:01,344 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 11:53:01,345 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 11:53:01,345 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:53:01,345 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:53:01,345 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:53:01,497 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 11:53:01,498 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 11:53:01,498 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 11:53:01,498 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 11:53:01,513 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 11:53:01,513 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 11:53:01,513 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 11:53:01,513 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 11:53:01,513 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 11:53:01,513 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': '58a6dd027175430301c109c3fa72e677ad6c77d1'}
+2023-05-30 11:53:01,514 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 11:53:01,514 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 11:53:01,514 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 11:53:01,652 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 11:53:01,652 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":46,"status":1,"create_time":"2021-04-01 08:51:13","update_time":"2022-07-20 09:22:52","username":"zhangsan","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}}],"totalCount":23,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 11:53:01,653 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 11:53:01,653 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:20:56,406 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:20:56,406 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:20:56,407 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:20:56,407 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:20:56,407 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:20:56,407 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:20:56,407 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:20:56,407 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:20:56,407 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:20:56,900 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:20:56,900 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"7cdc62d91781219e62cf18487e7385b9d83d9aed"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:20:56,901 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:20:56,901 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:20:56,920 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:20:56,920 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:20:56,920 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:20:56,921 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:20:56,921 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:20:56,921 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:20:56,922 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:20:56,922 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:20:56,922 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:20:57,411 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:20:57,412 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:20:57,413 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:20:57,413 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:20:57,431 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:20:57,431 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:20:57,432 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:20:57,432 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:20:57,432 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:20:57,433 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:20:57,433 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:20:57,433 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:20:57,434 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:20:57,536 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:20:57,536 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:20:57,537 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:20:57,537 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:20:57,546 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:20:57,546 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:20:57,546 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:20:57,546 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:20:57,546 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:20:57,547 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': '7cdc62d91781219e62cf18487e7385b9d83d9aed'}
+2023-05-30 12:20:57,547 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:20:57,547 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:20:57,547 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:20:57,659 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:20:57,659 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:20:57,659 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:20:57,659 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:26:19,885 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:26:19,885 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:26:19,885 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:26:19,885 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:26:19,886 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:26:19,886 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:26:19,886 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:26:19,886 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:26:19,886 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:26:20,584 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:26:20,585 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"ec21ec939de7351269cbb7718b64499561e7f2aa"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:26:20,586 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:26:20,586 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:26:20,606 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:26:20,606 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:26:20,606 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:26:20,606 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:26:20,606 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:26:20,607 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:26:20,607 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:26:20,607 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:26:20,607 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:26:21,608 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:26:21,609 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:26:21,609 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:26:21,609 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:26:21,626 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:26:21,627 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:26:21,627 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:26:21,627 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:26:21,628 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:26:21,628 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:26:21,628 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:26:21,629 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:26:21,629 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:26:21,759 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:26:21,760 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:26:21,760 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:26:21,761 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:26:21,781 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:26:21,782 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:26:21,782 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:26:21,782 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:26:21,783 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:26:21,783 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': 'ec21ec939de7351269cbb7718b64499561e7f2aa'}
+2023-05-30 12:26:21,784 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:26:21,784 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:26:21,784 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:26:21,935 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:26:21,936 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:26:21,936 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:26:21,936 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:27:40,735 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:27:40,735 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:27:40,735 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:27:40,736 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:27:40,736 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:27:40,736 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:27:40,736 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:27:40,736 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:27:40,736 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:27:42,556 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:27:42,556 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"c91a8509badc730c16a087672241df44e0522cbf"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:27:42,556 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:27:42,557 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:27:42,565 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:27:42,565 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:27:42,565 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:27:42,565 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:27:42,565 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:27:42,566 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:27:42,566 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:27:42,566 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:27:42,566 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:27:43,219 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:27:43,220 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:27:43,220 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:27:43,220 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:27:43,230 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:27:43,230 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:27:43,231 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:27:43,231 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:27:43,231 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:27:43,232 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:27:43,232 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:27:43,232 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:27:43,233 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:27:43,425 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:27:43,426 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:27:43,426 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:27:43,426 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': 'c91a8509badc730c16a087672241df44e0522cbf'}
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:27:43,435 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:27:43,436 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:27:44,204 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:27:44,204 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:27:44,205 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:27:44,206 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:32:12,096 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:32:12,097 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:32:14,271 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:32:14,271 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"cd55358e5577655e3a4928d40954e340ac71c946"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:32:14,271 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:32:14,272 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:32:14,284 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:32:14,284 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:32:14,284 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:32:14,285 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:32:14,285 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:32:14,285 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:32:14,285 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:32:14,285 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:32:14,286 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:32:15,500 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:32:15,500 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:32:15,501 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:32:15,501 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:32:15,518 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:32:15,519 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:32:15,519 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:32:15,520 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:32:15,520 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:32:15,520 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:32:15,520 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:32:15,521 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:32:15,521 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:32:16,320 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:32:16,320 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:32:16,320 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:32:16,321 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:32:16,346 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:32:16,346 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:32:16,346 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:32:16,346 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:32:16,347 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:32:16,347 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': 'cd55358e5577655e3a4928d40954e340ac71c946'}
+2023-05-30 12:32:16,347 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:32:16,347 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:32:16,347 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:32:16,780 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:32:16,781 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:32:16,782 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:32:16,782 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:34:45,657 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:34:45,658 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:34:46,437 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:34:46,437 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"2eb3cb0132a3e34ea5b6312a7dd969745168a626"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:34:46,438 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:34:46,439 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:34:46,456 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:34:46,457 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:34:46,457 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:34:46,458 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:34:46,458 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:34:46,458 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:34:46,459 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:34:46,459 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:34:46,459 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:34:47,052 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:34:47,052 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:34:47,053 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:34:47,053 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:34:47,068 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:34:47,068 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:34:47,069 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:34:47,069 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:34:47,069 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:34:47,070 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:34:47,070 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:34:47,070 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:34:47,071 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:34:47,204 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:34:47,205 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:34:47,205 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:34:47,206 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:34:47,226 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:34:47,227 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:34:47,227 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:34:47,228 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:34:47,228 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:34:47,228 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': '2eb3cb0132a3e34ea5b6312a7dd969745168a626'}
+2023-05-30 12:34:47,229 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:34:47,229 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:34:47,229 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:34:47,374 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:34:47,375 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:34:47,375 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:34:47,375 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:35:24,309 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:35:24,309 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:35:24,309 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:35:24,309 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:35:24,309 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:35:24,309 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:35:24,310 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:35:24,310 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:35:24,310 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:35:24,922 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:35:24,923 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"d7fa298dc553bca07bb011da71b2e1d20314a57f"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:35:24,923 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:35:24,924 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:35:24,937 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:35:24,937 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:35:24,937 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:35:24,937 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:35:24,938 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:35:24,938 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:35:24,938 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:35:24,938 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:35:24,939 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:35:25,424 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:35:25,425 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:35:25,425 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:35:25,426 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:35:25,445 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:35:25,446 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:35:25,446 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:35:25,447 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:35:25,447 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:35:25,447 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:35:25,448 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:35:25,448 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:35:25,448 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:35:25,551 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:35:25,552 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:35:25,552 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:35:25,552 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:35:25,560 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': 'd7fa298dc553bca07bb011da71b2e1d20314a57f'}
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:35:25,561 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:35:25,669 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:35:25,670 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:35:25,670 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:35:25,670 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:41:15,769 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:41:15,770 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:41:18,372 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:41:18,372 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"ce580cb9f7061f854e723e182f6f8239e0bedead"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:41:18,372 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:41:18,373 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:41:18,388 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:41:19,011 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:41:19,011 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:41:19,011 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:41:19,012 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:41:19,022 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:41:19,022 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:41:19,022 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:41:19,023 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:41:19,023 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:41:19,023 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:41:19,023 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:41:19,023 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:41:19,023 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:41:19,154 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:41:19,155 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:41:19,155 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:41:19,156 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:41:19,176 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:41:19,176 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:41:19,176 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:41:19,176 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:41:19,176 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:41:19,177 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': 'ce580cb9f7061f854e723e182f6f8239e0bedead'}
+2023-05-30 12:41:19,177 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:41:19,177 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:41:19,177 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:41:19,321 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:41:19,321 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:41:19,322 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:41:19,322 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:42:57,133 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:42:57,133 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:42:57,133 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:42:57,133 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:42:57,133 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:42:57,134 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:42:57,134 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:42:57,134 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:42:57,134 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:42:57,908 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:42:57,908 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"8f43455a45561631dd51ed6648ccc2448fa2e476"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:42:57,908 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:42:57,908 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:42:57,914 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:42:57,914 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:42:57,914 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:42:57,914 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:42:57,914 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:42:57,915 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:42:57,915 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:42:57,915 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:42:57,915 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:42:58,307 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:42:58,307 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:42:58,308 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:42:58,308 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:42:58,313 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:42:58,314 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:42:58,422 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:42:58,422 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:42:58,422 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:42:58,423 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:42:58,428 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:42:58,428 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:42:58,428 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:42:58,429 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:42:58,429 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:42:58,429 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': '8f43455a45561631dd51ed6648ccc2448fa2e476'}
+2023-05-30 12:42:58,429 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:42:58,429 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:42:58,429 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:42:58,529 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:42:58,530 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:42:58,530 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:42:58,530 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:56:21,385 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录成功-获取token
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': 'admin'}
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:56:21,386 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:56:21,972 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:56:21,972 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"token":"168562ca46c72a8791ba31a602ae706555d82242"},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:56:21,972 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:56:21,972 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:56:21,980 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:56:21,980 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-密码错误
+2023-05-30 12:56:21,980 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:56:21,980 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:56:21,980 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin', 'password': '123456'}
+2023-05-30 12:56:21,980 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:56:21,980 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:56:21,981 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:56:21,981 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:56:22,612 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:56:22,612 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"密码错误","errorCode":20000}
+2023-05-30 12:56:22,612 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:密码错误
+2023-05-30 12:56:22,612 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:56:22,614 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:56:22,614 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：登录失败-用户名错误
+2023-05-30 12:56:22,615 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：登录模块
+2023-05-30 12:56:22,615 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/login
+2023-05-30 12:56:22,615 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'username': 'admin1', 'password': 'admin'}
+2023-05-30 12:56:22,615 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：None
+2023-05-30 12:56:22,615 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:56:22,615 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:56:22,615 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:56:22,742 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：400
+2023-05-30 12:56:22,742 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"用户名错误","errorCode":20000}
+2023-05-30 12:56:22,742 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:400、响应信息中是否包含:用户名错误
+2023-05-30 12:56:22,742 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:201] - --------------------接口开始--------------------
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:202] - 接口的名称是：获取admin管理员列表数据
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:203] - 接口的所属模块是：管理员模块
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:204] - 接口的url是：http://ceshi13.dishait.cn/admin/manager/1
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的data是：{'limit': '5', 'keyword': 'admin'}
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的headers是：{'token': '168562ca46c72a8791ba31a602ae706555d82242'}
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的json是：None
+2023-05-30 12:56:22,745 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的files是：None
+2023-05-30 12:56:22,746 INFO [xM_Api_Test] [send_request.py (send_request:207] - 接口的params是：None
+2023-05-30 12:56:22,897 INFO [xM_Api_Test] [send_request.py (send_request:211] - 接口响应状态码是：200
+2023-05-30 12:56:22,897 INFO [xM_Api_Test] [send_request.py (send_request:213] - 接口响应信息是：{"msg":"ok","data":{"list":[{"id":246,"status":1,"create_time":"2023-05-30 12:09:09","update_time":"2023-05-30 12:09:17","username":"12313","avatar":"1323","role_id":9,"super":0,"role":{"id":9,"name":"测试"}},{"id":244,"status":1,"create_time":"2023-05-29 18:38:32","update_time":"2023-05-30 11:32:27","username":"周杰伦","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":242,"status":1,"create_time":"2023-05-29 16:22:38","update_time":"2023-05-29 16:22:38","username":"7777","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afa21c1.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}},{"id":206,"status":0,"create_time":"2022-07-25 10:26:32","update_time":"2023-05-30 10:50:14","username":"mybrr","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":200,"status":1,"create_time":"2022-07-23 19:53:48","update_time":"2023-05-29 02:11:41","username":"test","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62aeaa73b9041.jpg","role_id":19,"super":0,"role":{"id":19,"name":"销售"}},{"id":195,"status":1,"create_time":"2022-07-22 10:15:57","update_time":"2022-07-23 21:36:44","username":"12","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":3,"super":0,"role":{"id":3,"name":"运营"}},{"id":187,"status":1,"create_time":"2022-07-21 17:14:39","update_time":"2022-07-22 10:15:36","username":"啊实打实的2","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afda448.jpg","role_id":35,"super":0,"role":{"id":35,"name":"普通管理员1"}},{"id":50,"status":1,"create_time":"2022-06-18 16:22:43","update_time":"2022-06-18 16:22:43","username":"1211241241","avatar":"","role_id":2,"super":0,"role":{"id":2,"name":"超级管理员"}},{"id":49,"status":1,"create_time":"1970-01-01 08:32:50","update_time":"2023-05-29 10:05:06","username":"问问群233","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/62af04afe39fa.jpg","role_id":21,"super":0,"role":{"id":21,"name":"技术11"}},{"id":48,"status":1,"create_time":"1970-01-01 08:33:41","update_time":"2022-07-26 21:50:42","username":"fansang","avatar":"http:\/\/tangzhe123-com.oss-cn-shenzhen.aliyuncs.com\/public\/60bf2a510e681.jpg","role_id":31,"super":0,"role":{"id":31,"name":"测试的故事"}}],"totalCount":24,"roles":[{"id":2,"name":"超级管理员"},{"id":3,"name":"运营"},{"id":9,"name":"测试"},{"id":19,"name":"销售"},{"id":21,"name":"技术11"},{"id":31,"name":"测试的故事"},{"id":35,"name":"普通管理员1"},{"id":36,"name":"后勤"},{"id":38,"name":"测试"}]},"path":"观看完整课程地址：https:\/\/study.163.com\/course\/courseMain.htm?courseId=1212775807&share=2&shareId=480000001892585"}
+2023-05-30 12:56:22,897 INFO [xM_Api_Test] [send_request.py (send_request:214] - 接口断言信息：响应码是否为:200、响应信息中是否包含:data
+2023-05-30 12:56:22,897 INFO [xM_Api_Test] [send_request.py (send_request:215] - --------------------接口结束--------------------
+

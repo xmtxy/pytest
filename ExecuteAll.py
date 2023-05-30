@@ -10,8 +10,8 @@ import pytest
 if __name__ == '__main__':
     pytest.main()  # 执行时需要把文件名作修改  allure是处理的临时文件
     sleep(3)  # 让它先生成临时文件
-    split = 'allure ' + 'generate ' + './report/temporary ' + '-o ' + './report/html ' + '--clean'
-    os.system(split)  # 调用dos命令
+    # split = 'allure ' + 'generate ' + './report/temporary ' + '-o ' + './report/html ' + '--clean'
+    # os.system(split)  # 调用dos命令
     # YamlUtil().write_yaml({"age":"18","student":[{"name":"admin"},{"username":"IKUN"}]})
     # print(YamlUtil().read_yaml("age"))
     # print(YamlUtil().read_all_yaml("/test_case/get_login.yaml"))
